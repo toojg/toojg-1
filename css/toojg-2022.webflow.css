@@ -258,7 +258,7 @@ img {
   right: 0%;
   bottom: 0%;
   z-index: 1;
-  display: block;
+  display: none;
   max-width: 240px;
 }
 
@@ -490,7 +490,7 @@ img {
   display: block;
   overflow: hidden;
   width: 100.000029%;
-  height: 88%;
+  height: 86%;
   cursor: pointer;
 }
 

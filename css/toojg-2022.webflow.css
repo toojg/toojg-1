@@ -325,6 +325,10 @@ img {
 
 .link-close {
   position: fixed;
+  left: auto;
+  top: 4%;
+  right: 2%;
+  bottom: auto;
   z-index: 3;
 }
 
@@ -659,6 +663,10 @@ img {
   max-height: 10vw;
 }
 
+.div-block-3 {
+  z-index: 3;
+}
+
 @media screen and (max-width: 991px) {
   ._2.div-img_desc {
     width: 66%;
@@ -756,6 +764,10 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  li {
+    font-size: 16px;
+  }
+
   .section {
     margin-top: 32px;
     margin-bottom: 32px;
@@ -838,6 +850,10 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
+  }
+
+  .link-close {
+    top: 2%;
   }
 
   .cont-img_gallery {
@@ -927,6 +943,10 @@ img {
   .div-project_desc {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .link-close {
+    top: 2%;
   }
 
   .g_img-16-9-medium {
@@ -2033,6 +2053,17 @@ img {
     grid-row-end: 4;
   }
 
+  #w-node-_7767c1e6-29c3-e1a6-656f-989b85ea816f-20cae1d0 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+
   #w-node-_1044dab2-7890-eb9e-7e18-c843c3a11ed3-20cae1d0 {
     -ms-grid-row: 2;
     grid-row-start: 2;
@@ -2044,6 +2075,17 @@ img {
     grid-column-end: 6;
   }
 
+  #w-node-d105ea4a-f62c-93db-6912-32a00536906a-20cae1d0 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+
   #w-node-d105ea4a-f62c-93db-6912-32a00536906b-20cae1d0 {
     -ms-grid-row: 2;
     grid-row-start: 2;
@@ -2053,6 +2095,17 @@ img {
     grid-column-start: 1;
     -ms-grid-column-span: 5;
     grid-column-end: 6;
+  }
+
+  #w-node-cc11519b-d60e-110f-5281-441e582e1c05-20cae1d0 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
   }
 
   #w-node-cc11519b-d60e-110f-5281-441e582e1c06-20cae1d0 {
